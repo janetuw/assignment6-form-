@@ -1,0 +1,121 @@
+.alma{
+    text-align:center;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Unlock', cursive;
+    margin: 0px;
+    margin:65px 65px 65px 65px;
+    background-color:black;
+    
+    padding: 0px;
+  }
+    h2{
+        text-align:center;
+    }
+    
+    .container{
+        max-width: 100%;
+        background:whitesmoke;
+         box-shadow: 2px,white;}
+section h1{
+    text-align: center;
+    text-decoration:underline;
+
+}
+form{
+    text-align: center;
+}
+.contact-form{
+    max-width:150px;
+    margin:0 auto;
+    padding:10px;
+    background-color:transparent;
+    border-bottom:solid;
+}
+    
+.contact-form label,.contact-form{
+    display:block;
+    padding:15px;
+
+}
+form label{
+    width:150px;
+
+
+}
+form input{
+    width:250px;
+    border-radius:5px;
+}
+form input[type="submit"]{
+background:blue;
+font-weight:bold;}
+
+nav{
+    height: 48px;
+   background-color: #0000ff;
+    padding: 10px;
+    margin-bottom: 4px;}
+    nav a{
+        padding:15px;
+        word-spacing: 0px;
+        color: white;
+        margin-right:80px;
+        margin-left: 20px;
+        text-decoration: none;
+        display: -webkit-inline-;}
+        nav li{
+            display:inline-block;
+        }
+        /*MEDIA QUERIE*/
+        @media only screen and (max-width:768px){}
+        @media only screen and (max-width:768px){
+           
+            body
+            {
+                background-color:#fff;
+        }}
+        nav a:hover{
+            color:red ;
+        }
+
+        .images aside{
+            display: grid;
+            margin-left: 60px;
+            grid-template-columns: 1fr 1fr 1fr ;
+            grid-gap: 3px;}
+            h5{
+                text-align:center;
+
+
+            }
+           
+                
+              
+               
+            
+            footer{
+                height: 48px;
+               background-color: #0000ff;
+               
+              }
+                
+            
+                .aboutus aside{
+                    display: grid;
+                    margin-left: 60px;
+                    grid-template-columns: 1fr 1fr 1fr ;
+                    grid-gap: 3px;}
+
+                
+                
+            
+
+                
+                 
+                 
+                
+            
+
+   
